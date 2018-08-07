@@ -1,30 +1,34 @@
-*{
-    outline:1px dotted black;
-    }
+
 
     body {
         font-size: 50px;
         
     }
+    nav {
+        width:100%;
+        border-bottom: black solid 5px;
+        background-color: seashell;
+    }
 
     h1 {
         text-align: center;
-        
-        background-color: white;
-        width: 60%;
+        color: navy;
+        background-color: seashell;
+        width: 55%;
         float: left;
+        
         
        
        }
 
        ul {
         list-style-type: none;
-       
-        
+        color: black;
         padding-top: 110px;
-        width: 800px;
+        width: 40%;
         overflow: hidden;
-        background-color: white;
+        background-color: seashell;
+        font-size: 40px solid;
     }
     
     li {
@@ -45,22 +49,16 @@
         background-color: pink;
     }
 
-    #container {
-        width: 50%;
-        min-width: 50%;
-        text-align: center;}
-        
-        #container {
-        background: url('img/planet.jpg') no-repeat;
-        }
 
+        
+        
     h2 {
         margin-top: 30px;
         margin-left: 380px;
         text-align: left;
         background-color: white;
         width: 100%;
-
+        border-bottom: 5px;
         float: left;
     }
 
@@ -71,12 +69,21 @@
     }
 
     p {
-        margin-left: 30px;
-        width: 2000px;
-        float: left;
+        margin-left: 50%;
+        padding: 20px;
+        
+        
     }
     
-  
+  footer {
+      text-align: center;
+      position: fixed;
+      bottom :0;
+      width:100%;
+      color: white;
+      background: gray;
+      border: aquamarine solid;
+  }
     
 
 

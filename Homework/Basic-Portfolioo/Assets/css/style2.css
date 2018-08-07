@@ -1,30 +1,34 @@
-*{
-    outline:1px dotted black;
-    }
+
 
     body {
         font-size: 50px;
         
     }
+    nav {
+        width:100%;
+        border-bottom: black solid 5px;
+        background-color: seashell;
+    }
 
     h1 {
         text-align: center;
-        
-        background-color: white;
-        width: 60%;
+        color: navy;
+        background-color: seashell;
+        width: 55%;
         float: left;
+        
         
        
        }
 
        ul {
         list-style-type: none;
-       
-        
+        color: black;
         padding-top: 110px;
-        width: 800px;
+        width: 40%;
         overflow: hidden;
-        background-color: white;
+        background-color: seashell;
+        font-size: 40px solid;
     }
     
     li {
@@ -44,3 +48,22 @@
     li a:hover {
         background-color: pink;
     }
+img {
+    border: navy solid;
+    float: left;
+    margin: 150px;
+}
+    
+  footer {
+      text-align: center;
+      position: fixed;
+      bottom :0;
+      width:100%;
+      color: white;
+      background: gray;
+      border: aquamarine solid;
+  }
+    
+
+
+
